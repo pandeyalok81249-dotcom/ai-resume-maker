@@ -1,0 +1,42 @@
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Java / Maven Backend
+backend/target/
+backend/.mvn/
+backend/*.iml
+*.class
+
+# Maven Local Repository & Tooling
+apache-maven-*/
+.m2/
+
+# Databases
+*.mv.db
+*.trace.db
+resumeai_db*
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Env & Secrets
+.env
+.env.production
+.env.local
+

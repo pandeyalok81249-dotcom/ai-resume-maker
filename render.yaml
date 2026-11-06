@@ -1,0 +1,29 @@
+# Render Infrastructure-as-Code Blueprint
+# Documentation: https://render.com/docs/blueprint-spec
+
+services:
+  # ==============================================================
+  # Full-Stack AI Resume Maker Service (Unified Container)
+  # Frontend React SPA + Spring Boot Backend running on single instance
+  # ==============================================================
+  - type: web
+    name: ai-resume-maker
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    region: oregon
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: SPRING_PROFILES_ACTIVE
+        value: dev
+      - key: AI_PROVIDER
+        value: demo # Set to openai or gemini if you have an API key
+      - key: OPENAI_API_KEY
+        sync: false # Set via Render Dashboard if using OpenAI
+      - key: GEMINI_API_KEY
+        sync: false # Set via Render Dashboard if using Gemini
+      - key: JWT_SECRET
+        generateValue: true
+
