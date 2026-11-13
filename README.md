@@ -1,5 +1,11 @@
 # ResumeAI – Intelligent AI Resume Maker & Builder
 
+[![Deploy Website to GitHub Pages](https://github.com/pandeyalok81249-dotcom/ai-resume-maker/actions/workflows/deploy.yml/badge.svg)](https://github.com/pandeyalok81249-dotcom/ai-resume-maker/actions/workflows/deploy.yml)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=flat&logo=github)](https://pandeyalok81249-dotcom.github.io/ai-resume-maker/)
+
+> **🌐 Live Website:** [https://pandeyalok81249-dotcom.github.io/ai-resume-maker/](https://pandeyalok81249-dotcom.github.io/ai-resume-maker/)  
+> **💻 GitHub Repository:** [https://github.com/pandeyalok81249-dotcom/ai-resume-maker](https://github.com/pandeyalok81249-dotcom/ai-resume-maker)
+
 A production-ready, full-stack AI Resume Builder platform designed with a premium SaaS user experience. Helps students, fresh graduates, job seekers, and experienced executives create professional, ATS-friendly resumes using Artificial Intelligence.
 
 ---
